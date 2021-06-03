@@ -1,30 +1,36 @@
 {
-  "name": "jekyll-theme-chirpy",
-  "version": "4.0.1",
-  "description": "A minimal, sidebar, responsive web design Jekyll theme that focuses on text presentation.",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "name": "hexo-theme-next",
+  "version": "7.8.0",
+  "description": "Elegant and powerful theme for Hexo.",
+  "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cotes2020/jekyll-theme-chirpy.git"
+    "url": "git+https://github.com/theme-next/hexo-theme-next.git"
   },
-  "author": "Cotes Chung",
-  "license": "MIT",
+  "keywords": [
+    "hexo",
+    "theme",
+    "next"
+  ],
+  "author": "NexT <support@theme-next.org> (https://theme-next.org)",
+  "license": "AGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/cotes2020/jekyll-theme-chirpy/issues"
+    "url": "https://github.com/theme-next/hexo-theme-next/issues"
   },
-  "homepage": "https://github.com/cotes2020/jekyll-theme-chirpy#readme",
-  "dependencies": {
+  "homepage": "https://theme-next.org",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-theme-next": "^1.1.4",
     "gulp": "^4.0.2",
-    "gulp-concat": "^2.6.1",
-    "gulp-insert": "^0.5.0",
-    "gulp-rename": "^2.0.0",
-    "gulp-uglify": "^3.0.2",
-    "uglify-js": "git+https://github.com/mishoo/UglifyJS2.git#harmony"
+    "gulp-eslint": "^6.0.0",
+    "gulp-shell": "^0.8.0",
+    "js-yaml": "^3.13.1",
+    "stylint": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=10.9.0"
   }
 }
